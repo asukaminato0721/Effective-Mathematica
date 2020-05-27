@@ -30,7 +30,8 @@ Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路�
 12. 利用好 Notebook 的 2D 编辑能力
 13. 如何评估程序的性能
 14. 认识 Undocumented Function
-15. 
+15. 动态演示时如何控制图形
+16. 
 
 
 To be Continued......
