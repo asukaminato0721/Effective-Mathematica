@@ -19,7 +19,7 @@ Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路�
 2. [少用 `For`, 多用 `Nest(List)`, `Fold(List)`, `Do`,`Table`](https://note.youdao.com/ynoteshare1/index.html?id=7334ad886b97de3565d59beea50b5350&type=note)
 3. 列表不宜嵌套过深
 4. [用数值计算可以加速](https://blog.wolfram.com/2011/12/07/10-tips-for-writing-fast-mathematica-code/)
-> 这是[翻译链接](https://www.cnblogs.com/mymma/archive/2012/08/27/2659007.html), 这是 [贴吧帖子](https://tieba.baidu.com/p/2186436530)
+    > 这是[翻译链接](https://www.cnblogs.com/mymma/archive/2012/08/27/2659007.html), 这是 [贴吧帖子](https://tieba.baidu.com/p/2186436530)
 5. [模式匹配是双刃剑](https://blog.wolfram.com/2011/12/07/10-tips-for-writing-fast-mathematica-code/)
 6. 用数学的思维解决问题
 7. 用 `//` `/*` `@*` 等函数解决嵌套问题
@@ -31,7 +31,9 @@ Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路�
 13. 如何评估程序的性能
 14. 认识 Undocumented Function
 15. 动态演示时如何控制图形
-16. 
+16. [学会使用 `Compile`](https://note.youdao.com/ynoteshare1/index.html?id=bf2a031f7d0d69064941032c7857dfd1&type=note)
+    > 文章里提到的 草红样 的 [MathematicaStackExchange 账号](https://mathematica.stackexchange.com/users/2090/chyanog)
+17. 
 
 
 To be Continued......
