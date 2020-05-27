@@ -17,6 +17,7 @@ Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路�
 2. [少用 `For`, 多用 `Nest(List)`, `Fold(List)`, `Do`,`Table`](https://note.youdao.com/ynoteshare1/index.html?id=7334ad886b97de3565d59beea50b5350&type=note)
 3. 列表不宜嵌套过深
 4. [用数值计算可以加速](https://blog.wolfram.com/2011/12/07/10-tips-for-writing-fast-mathematica-code/)
+> 这是[翻译链接](https://www.cnblogs.com/mymma/archive/2012/08/27/2659007.html), 这是 [贴吧帖子](https://tieba.baidu.com/p/2186436530)
 5. [模式匹配是双刃剑](https://blog.wolfram.com/2011/12/07/10-tips-for-writing-fast-mathematica-code/)
 6. 用数学的思维解决问题
 7. 用 `//` `/*` `@*` 等函数解决嵌套问题
