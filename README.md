@@ -6,11 +6,13 @@
 
 Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路。总结一些经验。
 
-这里的 Effective 有多重函数
+这里的 Effective 有多重含义
 
 1. 运行效率
 2. 写代码效率
 3. 查问题效率
+
+......
 
 ---
 
@@ -24,6 +26,7 @@ Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路�
 
 0. 前言
 1. [学会使用 `F1`](https://note.youdao.com/ynoteshare1/index.html?id=abd51087f44c0b6a41ff6022d549dc41&type=note)
+1. 介绍一些学习 Mathematica 的站点
 2. [少用 `For`, 多用 `Nest(List)`, `Fold(List)`, `Do`,`Table`](https://note.youdao.com/ynoteshare1/index.html?id=7334ad886b97de3565d59beea50b5350&type=note)
 3. 列表不宜嵌套过深
 4. [用数值计算可以加速](https://blog.wolfram.com/2011/12/07/10-tips-for-writing-fast-mathematica-code/)
