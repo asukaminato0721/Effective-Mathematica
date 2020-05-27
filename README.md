@@ -28,7 +28,9 @@ Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路�
 10. [中途计算避免使用 `MatrixForm`](https://note.youdao.com/ynoteshare1/index.html?id=d0a57819857f2771ca669eb54819e3d1&type=note)
 11. 利用 Notebook 快速整理代码
 12. 利用好 Notebook 的 2D 编辑能力
-13. 
+13. 如何评估程序的性能
+14. 认识 Undocumented Function
+15. 
 
 
 To be Continued......
