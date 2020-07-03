@@ -1,0 +1,49 @@
+Notebook[
+ {
+  Cell[
+   CellGroupData[
+    {
+     Cell["\:524d\:8a00", "Title"],
+     Cell[
+      CellGroupData[
+       {
+        Cell[
+         "\:4e3a\:4ec0\:4e48\:60f3\:5199\:8fd9\:4e48\:4e2a\:4e1c\:897f",
+         "Section"
+        ],
+        Cell[
+         TextData[
+          StyleBox[
+           "\:56e0\:4e3a\:9700\:8981\:5b8c\:6210 Wolfram \:5b66\:751f\:5927\:4f7f\:7684\:4efb\:52a1",
+           FontVariations -> {"StrikeThrough" -> True}
+          ]
+         ],
+         "Text"
+        ],
+        Cell[
+         "\:6211\:66fe\:7ecf\:9605\:8bfb\:8fc7\:5f88\:591a Mathematica \:76f8\:5173\:8d44\:6599\:ff0c\:90fd\:5f88\:6709\:4ef7\:503c\:ff0c\:80fd\:591f\:6781\:5927\:7684\:51cf\:5c11\:5b66\:8f6f\:4ef6\:7684\:5f2f\:8def\:3002\:4f46\:662f\:90fd\:5f88\:96f6\:6563. \:5728\:56fd\:5185\:4e5f\:57fa\:672c\:6ca1\:6709\:9762\:5411\:9ad8\:7248\:672c\:7684 Mathematica \:7684\:76f8\:5173\:4e66\:7c4d\:ff08\:6307 8.0 \:53ca\:4ee5\:4e0a\:ff09.\:800c\:6559\:6750\:91cc\:7684\:4ee3\:7801\:4e5f\:662f\:4e00\:8a00\:96be\:5c3d. \:6240\:4ee5\:5e72\:8106\:81ea\:5df1\:6574\:7406.",
+         "Text"
+        ]
+       },
+       Open
+      ]
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell["Why Github", "Section"],
+        Cell[
+         "GitHub \:662f\:4e00\:4e2a\:5f00\:6e90\:5e73\:53f0\:ff0cPull Request / Issue \:90fd\:5f88\:65b9\:4fbf.",
+         "Text"
+        ]
+       },
+       Open
+      ]
+     ]
+    },
+    Open
+   ]
+  ]
+ },
+ StyleDefinitions -> "Default.nb"
+]
