@@ -6,8 +6,9 @@ If[PacletFind["M2MD"]==={},
 
 Needs["M2MD`"]
 
-$nbDir = DirectoryName@$InputFileName;
-$mdDir = FileNameJoin@{DirectoryName@$nbDir, "markdown"};
+$baseDir = DirectoryName@$InputFileName;
+$nbDir = Echo@FileNameJoin@{$baseDir, "notebooks"};
+$mdDir = Echo@FileNameJoin@{$baseDir, "markdown"};
 
 mdFile[nb_String]:=mdFile[nb]=ResourceFunction["EnsureFilePath"]@FileNameJoin@{
   $mdDir,
