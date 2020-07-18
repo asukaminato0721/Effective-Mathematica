@@ -4,7 +4,7 @@
 
 ## 笔记本撰写规范
 
-使用标准的样式表和样式。
+使用标准的样式表和样式。建议阅读 [M2MD 的文档](https://github.com/kubaPod/M2MD/wiki)以了解支持转换的格式。
 
 保存笔记本时建议使用 [`ResourceFunction["SaveReadableNotebook"]`](https://resources.wolframcloud.com/FunctionRepository/resources/SaveReadableNotebook) 或者 [`mathematica-notebook-filter`](https://github.com/JP-Ellis/mathematica-notebook-filter) 得到干净的笔记本文件，避免提交一些乱七八糟的cache到git中：
 
