@@ -1,0 +1,322 @@
+Notebook[
+ {
+  Cell[
+   CellGroupData[
+    {
+     Cell[
+      "\:5c3d\:91cf\:5217\:8868\:6574\:4f53\:8fd0\:7b97",
+      "Title"
+     ],
+     Cell[
+      "\:4e00\:4e2a\:5e38\:8bc6\:662f\:ff0c\:77e2\:91cf\:5316\:64cd\:4f5c\:ff08\:5217\:8868\:6574\:4f53\:64cd\:4f5c\:ff09\:4f1a\:66f4\:5feb\:3002\:800c\:4e14\:9519\:8bef\:7387\:66f4\:4f4e\:3002\:ff08\:60f3\:60f3\:4e0b\:6807\:8d8a\:754c\:ff09",
+      "Text"
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell["\:6848\:4f8b", "Section"],
+        Cell[
+         CellGroupData[
+          {
+           Cell[
+            "\:7ed9\:5b9a\:5217\:8868\:8ba1\:7b97\:5176\:4e2d\:6240\:4ee5\:5c0f\:4e8e5\:7684\:6570\:7684\:548c\:ff1a",
+            "Subsection"
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               RowBox[
+                {
+                 "r",
+                 "=",
+                 RowBox[
+                  {
+                   "RandomReal",
+                   "[",
+                   RowBox[{"10", ",", " ", "10000000"}],
+                   "]"
+                  }
+                 ]
+                }
+               ],
+               ";"
+              }
+             ]
+            ],
+            "Code",
+            CellLabel -> "In[1]:="
+           ],
+           Cell[
+            TextData[
+             {
+              Cell[BoxData["Select"]],
+              " \:4f5c\:7528\:7eaf\:51fd\:6570\:6ca1\:6709\:7f16\:8bd1\:ff0c\:4e5f\:96be\:4ee5\:77e2\:91cf\:5316\:ff0c\:901f\:5ea6\:5f88\:6162\:ff1a"
+             }
+            ],
+            "Text"
+           ],
+           Cell[
+            CellGroupData[
+             {
+              Cell[
+               BoxData[
+                RowBox[
+                 {
+                  RowBox[
+                   {
+                    RowBox[
+                     {
+                      "Select",
+                      "[",
+                      RowBox[{"r", ",", RowBox[{RowBox[{"#", "<", "5"}], "&"}]}],
+                      "]"
+                     }
+                    ],
+                    "//",
+                    "Total"
+                   }
+                  ],
+                  "//",
+                  "RepeatedTiming"
+                 }
+                ]
+               ],
+               "Input",
+               CellLabel -> "In[2]:="
+              ],
+              Cell[
+               BoxData[
+                RowBox[
+                 {
+                  "{",
+                  RowBox[
+                   {"4.4042816000000000187`2.", ",", "1.2506577846983857`*^7"}
+                  ],
+                  "}"
+                 }
+                ]
+               ],
+               "Output",
+               CellLabel -> "Out[2]="
+              ]
+             },
+             Open
+            ]
+           ],
+           Cell[
+            TextData[
+             {
+              "\:6765\:81ea ",
+              ButtonBox[
+               "@Szabolcs",
+               BaseStyle -> "Hyperlink",
+               ButtonData -> {URL["https://github.com/szhorvat"], None},
+               ButtonNote -> "https://github.com/szhorvat"
+              ],
+              " \:7684 ",
+              ButtonBox[
+               "BoolEval",
+               BaseStyle -> "Hyperlink",
+               ButtonData -> {
+                URL[
+                 "https://resources.wolframcloud.com/FunctionRepository/resources/BoolEval"
+                ],
+                None
+               },
+               ButtonNote -> "https://resources.wolframcloud.com/FunctionRepository/resources/BoolEval"
+              ],
+              " :"
+             }
+            ],
+            "Text"
+           ],
+           Cell[
+            CellGroupData[
+             {
+              Cell[
+               BoxData[
+                RowBox[
+                 {
+                  RowBox[
+                   {
+                    RowBox[
+                     {
+                      "Pick",
+                      "[",
+                      RowBox[
+                       {
+                        "r",
+                        ",",
+                        RowBox[
+                         {
+                          RowBox[{"ResourceFunction", "[", "\"BoolEval\"", "]"}],
+                          "[",
+                          RowBox[{"r", "<", "5"}],
+                          "]"
+                         }
+                        ],
+                        ",",
+                        "1"
+                       }
+                      ],
+                      "]"
+                     }
+                    ],
+                    "//",
+                    "Total"
+                   }
+                  ],
+                  "//",
+                  "RepeatedTiming"
+                 }
+                ]
+               ],
+               "Input",
+               CellLabel -> "In[3]:="
+              ],
+              Cell[
+               BoxData[
+                RowBox[
+                 {
+                  "{",
+                  RowBox[
+                   {"0.2985809999999999853`3.", ",", "1.2506577846983857`*^7"}
+                  ],
+                  "}"
+                 }
+                ]
+               ],
+               "Output",
+               CellLabel -> "Out[3]="
+              ]
+             },
+             Open
+            ]
+           ],
+           Cell[
+            "\:8fd9\:4e00\:51fd\:6570\:5c06\:903b\:8f91\:8868\:8fbe\:5f0f\:8f6c\:6362\:4e3a\:7b97\:672f\:8868\:8fbe\:5f0f\:4ee5\:83b7\:5f97\:77e2\:91cf\:5316\:6548\:679c\:3002\:56e0\:6b64\:ff0c\:8fd9\:91cc\:4ea6\:53ef\:4ee5\:76f4\:63a5\:5199\:4f5c",
+            "Text"
+           ],
+           Cell[
+            CellGroupData[
+             {
+              Cell[
+               BoxData[
+                RowBox[
+                 {
+                  RowBox[
+                   {
+                    RowBox[
+                     {
+                      "Pick",
+                      "[",
+                      RowBox[
+                       {
+                        "r",
+                        ",",
+                        RowBox[{"Unitize", "[", RowBox[{"5", ",", "r"}], "]"}],
+                        ",",
+                        "1"
+                       }
+                      ],
+                      "]"
+                     }
+                    ],
+                    "//",
+                    "Total"
+                   }
+                  ],
+                  "//",
+                  "RepeatedTiming"
+                 }
+                ]
+               ],
+               "Input",
+               CellLabel -> "In[4]:="
+              ],
+              Cell[
+               BoxData[
+                RowBox[
+                 {
+                  "{",
+                  RowBox[
+                   {"0.2633135750000000219`3.", ",", "1.2506577846983857`*^7"}
+                  ],
+                  "}"
+                 }
+                ]
+               ],
+               "Output",
+               CellLabel -> "Out[4]="
+              ]
+             },
+             Open
+            ]
+           ],
+           Cell[
+            "\:5de7\:5999\:5229\:7528\:96f6\:5143\:ff0c\:907f\:514d\:7b5b\:9009\:5217\:8868",
+            "Text"
+           ],
+           Cell[
+            CellGroupData[
+             {
+              Cell[
+               BoxData[
+                RowBox[
+                 {
+                  RowBox[
+                   {
+                    RowBox[
+                     {
+                      "r",
+                      " ",
+                      RowBox[{"Unitize", "[", RowBox[{"5", ",", "r"}], "]"}]
+                     }
+                    ],
+                    "//",
+                    "Total"
+                   }
+                  ],
+                  "//",
+                  "RepeatedTiming"
+                 }
+                ]
+               ],
+               "Input",
+               CellLabel -> "In[5]:="
+              ],
+              Cell[
+               BoxData[
+                RowBox[
+                 {
+                  "{",
+                  RowBox[
+                   {"0.0688956928571428512`2.", ",", "1.2506577846983854`*^7"}
+                  ],
+                  "}"
+                 }
+                ]
+               ],
+               "Output",
+               CellLabel -> "Out[5]="
+              ]
+             },
+             Open
+            ]
+           ]
+          },
+          Open
+         ]
+        ]
+       },
+       Open
+      ]
+     ]
+    },
+    Open
+   ]
+  ]
+ },
+ StyleDefinitions -> "Default.nb"
+]

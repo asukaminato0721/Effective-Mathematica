@@ -1,0 +1,209 @@
+Notebook[
+ {
+  Cell[
+   CellGroupData[
+    {
+     Cell[
+      "\:4ecb\:7ecd\:4e00\:4e9b\:5b66\:4e60 Mathematica \:7684\:7ad9\:70b9",
+      "Title"
+     ],
+     Cell[
+      TextData[
+       {
+        "\:9996\:5f53\:5176\:51b2\:7684\:662fMathematica \:81ea\:5e26\:7684 F1 \:4ee5\:53ca\:5bf9\:5e94\:7684",
+        ButtonBox[
+         " Web \:7ad9\:70b9",
+         BaseStyle -> "Hyperlink",
+         ButtonData -> {URL["http://reference.wolfram.com/language/"], None},
+         ButtonNote -> "http://reference.wolfram.com/language/"
+        ],
+        "\:3002"
+       }
+      ],
+      "Text"
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell["\:6559\:7a0b", "Section"],
+        Cell[
+         CellGroupData[
+          {
+           Cell["\:5165\:95e8\:7ea7", "Subsection"],
+           Cell[
+            CellGroupData[
+             {
+              Cell[
+               TextData[
+                ButtonBox[
+                 "Wolfram \:8bed\:8a00\:ff1a\:5feb\:901f\:7f16\:7a0b\:5165\:95e8",
+                 BaseStyle -> "Hyperlink",
+                 ButtonData -> {
+                  URL[
+                   "https://www.wolfram.com/language/fast-introduction-for-programmers/zh/"
+                  ],
+                  None
+                 },
+                 ButtonNote -> "https://www.wolfram.com/language/fast-introduction-for-programmers/zh/"
+                ]
+               ],
+               "Item"
+              ],
+              Cell[
+               TextData[
+                ButtonBox[
+                 "Mathematica \:548c Wolfram \:8bed\:8a00 \:9762\:5411\:6570\:5b66\:5b66\:4e60\:7684\:5feb\:901f\:5165\:95e8\:6307\:5357",
+                 BaseStyle -> "Hyperlink",
+                 ButtonData -> {
+                  URL[
+                   "https://www.wolfram.com/language/fast-introduction-for-math-students/zh/"
+                  ],
+                  None
+                 },
+                 ButtonNote -> "https://www.wolfram.com/language/fast-introduction-for-math-students/zh/"
+                ]
+               ],
+               "Item"
+              ]
+             },
+             Open
+            ]
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell["\:57fa\:7840\:7ea7", "Subsection"],
+           Cell[
+            CellGroupData[
+             {
+              Cell[
+               TextData[
+                ButtonBox[
+                 "Wolfram\:8bed\:8a00\:5165\:95e8",
+                 BaseStyle -> "Hyperlink",
+                 ButtonData -> {
+                  URL[
+                   "http://www.wolfram.com/language/elementary-introduction/preface.html"
+                  ],
+                  None
+                 },
+                 ButtonNote -> "http://www.wolfram.com/language/elementary-introduction/preface.html"
+                ]
+               ],
+               "Item"
+              ],
+              Cell[
+               TextData[
+                ButtonBox[
+                 "Mathematica \:7f16\:7a0b\:ff1a\:9ad8\:7ea7\:5bfc\:8bba",
+                 BaseStyle -> "Hyperlink",
+                 ButtonData -> {
+                  URL[
+                   "http://www.mathcraft.org/wiki/index.php?title=Mathematica_%E7%BC%96%E7%A8%8B%EF%BC%9A%E9%AB%98%E7%BA%A7%E5%AF%BC%E8%AE%BA"
+                  ],
+                  None
+                 },
+                 ButtonNote -> "http://www.mathcraft.org/wiki/index.php?title=Mathematica_%E7%BC%96%E7%A8%8B%EF%BC%9A%E9%AB%98%E7%BA%A7%E5%AF%BC%E8%AE%BA"
+                ]
+               ],
+               "Item"
+              ]
+             },
+             Open
+            ]
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell["\:8fdb\:9636\:7ea7", "Subsection"],
+           Cell[
+            TextData[
+             ButtonBox[
+              "Mathematica Tutorial - b3m2a1",
+              BaseStyle -> "Hyperlink",
+              ButtonData -> {URL["https://mresources.github.io/tutorial/"], None},
+              ButtonNote -> "https://mresources.github.io/tutorial/"
+             ]
+            ],
+            "Item"
+           ]
+          },
+          Open
+         ]
+        ]
+       },
+       Open
+      ]
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell["\:95ee\:7b54\:7ad9", "Section"],
+        Cell[
+         CellGroupData[
+          {
+           Cell[
+            TextData[
+             {
+              ButtonBox[
+               "Mathematica Stack Exchange",
+               BaseStyle -> "Hyperlink",
+               ButtonData -> {URL["https://mathematica.stackexchange.com"], None},
+               ButtonNote -> "https://mathematica.stackexchange.com"
+              ],
+              ": \:6d3b\:8dc3\:5ea6\:9ad8\:ff0c\:82f1\:6587"
+             }
+            ],
+            "Item"
+           ],
+           Cell[
+            TextData[
+             {
+              ButtonBox[
+               "Wolfram Community",
+               BaseStyle -> "Hyperlink",
+               ButtonData -> {URL["https://community.wolfram.com/"], None},
+               ButtonNote -> "https://community.wolfram.com/"
+              ],
+              ": \:5b98\:65b9\:529e\:7684\:ff0c\:82f1\:6587"
+             }
+            ],
+            "Item"
+           ],
+           Cell[
+            TextData[
+             {
+              ButtonBox[
+               "Mathematica \:95ee\:7b54\:793e\:533a",
+               BaseStyle -> "Hyperlink",
+               ButtonData -> {URL["https://mmaqa.com/qa/"], None},
+               ButtonNote -> "https://mmaqa.com/qa/"
+              ],
+              ": \:4e2d\:6587\:ff0c\:6d3b\:8dc3\:5ea6\:4e0d\:9ad8"
+             }
+            ],
+            "Item"
+           ]
+          },
+          Open
+         ]
+        ]
+       },
+       Open
+      ]
+     ]
+    },
+    Open
+   ]
+  ]
+ },
+ StyleDefinitions -> "Default.nb"
+]

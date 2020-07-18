@@ -1,0 +1,87 @@
+Notebook[
+ {
+  Cell[
+   CellGroupData[
+    {
+     Cell[
+      "\:7528\:6570\:5b66\:7684\:601d\:7ef4\:89e3\:51b3\:95ee\:9898",
+      "Title"
+     ],
+     Cell[
+      "Mathematica \:5e95\:5c42\:5bf9\:4e8e\:6570\:5b66\:76f8\:5173\:5185\:5bb9\:4f18\:5316\:5f97\:975e\:5e38\:597d\:ff0c\:6240\:4ee5\:8981\:6709\:8fd9\:65b9\:9762\:7684\:601d\:7ef4\:3002",
+      "Text"
+     ],
+     Cell["\:6bd4\:5982\:751f\:6210", "Text"],
+     Cell[
+      BoxData[
+       FormBox[
+        RowBox[
+         {
+          "x",
+          "+",
+          RowBox[{"2", SuperscriptBox["x", "2"]}],
+          "+",
+          RowBox[{"3", SuperscriptBox["x", "3"]}],
+          "+",
+          RowBox[{"4", SuperscriptBox["x", "4"]}],
+          "+",
+          "\[Ellipsis]"
+         }
+        ],
+        TraditionalForm
+       ]
+      ],
+      "DisplayFormula",
+      TextAlignment -> Center
+     ],
+     Cell["\:53ef\:4ee5", "Text"],
+     Cell[
+      BoxData[
+       RowBox[
+        {
+         RowBox[{"Range", "[", RowBox[{"0", ",", " ", "5"}], "]"}],
+         ".",
+         RowBox[
+          {
+           "x",
+           "^",
+           RowBox[{"Range", "[", RowBox[{"0", ",", " ", "5"}], "]"}]
+          }
+         ]
+        }
+       ]
+      ],
+      "Code"
+     ],
+     Cell[
+      TextData[
+       {
+        "\:6ce8\:610f ",
+        Cell[BoxData["Dot"]],
+        " \:7684\:4f7f\:7528\:3002"
+       }
+      ],
+      "Text"
+     ],
+     Cell["\:7528\:7eaf\:51fd\:6570\:5199\:6210", "Text"],
+     Cell[
+      BoxData[
+       RowBox[
+        {
+         RowBox[
+          {RowBox[{"#", ".", RowBox[{"x", "^", "#"}]}], " ", "&"}
+         ],
+         "@",
+         RowBox[{"Range", "[", RowBox[{"0", ",", " ", "5"}], "]"}]
+        }
+       ]
+      ],
+      "Code"
+     ]
+    },
+    Open
+   ]
+  ]
+ },
+ StyleDefinitions -> "Default.nb"
+]

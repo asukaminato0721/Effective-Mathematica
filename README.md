@@ -1,5 +1,7 @@
 # Effective-Mathematica
 
+[![View notebooks](https://wolfr.am/HAAhzkRq)](https://wolfr.am/O59MI2k6)
+
 一本想要致敬 Effective Python 与 Effective C++ 的小书
 
 ---

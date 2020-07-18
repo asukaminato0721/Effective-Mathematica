@@ -1,0 +1,534 @@
+Notebook[
+ {
+  Cell[
+   CellGroupData[
+    {
+     Cell[
+      "\:5217\:8868\:4e0d\:5b9c\:5d4c\:5957\:8fc7\:6df1",
+      "Title"
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell[
+         "\:6b63\:5e38\:7684\:5217\:8868\:64cd\:4f5c",
+         "Section"
+        ],
+        Cell[
+         TextData[
+          {
+           "\:5728\:5f00\:59cb\:8bb2\:4e4b\:524d\:ff0c\:8ba9\:6211\:4eec\:6765\:770b\:770b\:8fd9\:4e09\:4e2a\:8bed\:6cd5\:7cd6:",
+           Cell[BoxData["/@"], "Input"],
+           ", ",
+           Cell[BoxData["@@"], "Input"],
+           ", ",
+           Cell[BoxData["@@@"], "Input"]
+          }
+         ],
+         "Text"
+        ],
+        Cell["\:7528\:6cd5\:8bf7 F1", "Text"],
+        Cell[
+         CellGroupData[
+          {
+           Cell[TextData[Cell[BoxData["@@@"]]], "Subsection"],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               RowBox[
+                {"f", "[", RowBox[{"x_", ",", "y_", ",", "z_"}], "]"}
+               ],
+               ":=",
+               RowBox[{"(*", "...", "*)"}]
+              }
+             ]
+            ],
+            "Code"
+           ],
+           Cell[
+            "\:73b0\:5728\:6211\:4eec\:6709\:4e00\:4e2a\:5217\:8868",
+            "Text"
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "RandomReal",
+               "[",
+               RowBox[
+                {
+                 "1",
+                 ",",
+                 " ",
+                 RowBox[{"{", RowBox[{"5", ",", " ", "3"}], "}"}]
+                }
+               ],
+               "]"
+              }
+             ]
+            ],
+            "Code"
+           ],
+           Cell[
+            "\:60f3\:5bf9\:6bcf\:4e2a\:5b50\:5217\:8868\:8fdb\:884c\:64cd\:4f5c",
+            "Text"
+           ],
+           Cell["bad way:", "Text"],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   "f",
+                   "[",
+                   RowBox[
+                    {
+                     RowBox[{"#", "[", RowBox[{"[", "1", "]"}], "]"}],
+                     ",",
+                     RowBox[{"#", "[", RowBox[{"[", "2", "]"}], "]"}],
+                     ",",
+                     RowBox[{"#", "[", RowBox[{"[", "3", "]"}], "]"}]
+                    }
+                   ],
+                   "]"
+                  }
+                 ],
+                 "&"
+                }
+               ],
+               " ",
+               "/@",
+               RowBox[
+                {
+                 "RandomReal",
+                 "[",
+                 RowBox[
+                  {
+                   "1",
+                   ",",
+                   " ",
+                   RowBox[{"{", RowBox[{"5", ",", " ", "3"}], "}"}]
+                  }
+                 ],
+                 "]"
+                }
+               ]
+              }
+             ]
+            ],
+            "Code"
+           ],
+           Cell["good way:", "Text"],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "f",
+               "@@@",
+               RowBox[
+                {
+                 "RandomReal",
+                 "[",
+                 RowBox[
+                  {
+                   "1",
+                   ",",
+                   " ",
+                   RowBox[{"{", RowBox[{"5", ",", " ", "3"}], "}"}]
+                  }
+                 ],
+                 "]"
+                }
+               ]
+              }
+             ]
+            ],
+            "Code"
+           ],
+           Cell[
+            TextData[
+             {
+              "\:90a3\:5047\:5982\:6211\:4eec\:4e0d\:60f3\:8981\:6c61\:67d3 ",
+              Cell[BoxData["f"]],
+              " , \:53ef\:4ee5\:8003\:8651\:7eaf\:51fd\:6570"
+             }
+            ],
+            "Text"
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               RowBox[
+                {
+                 RowBox[{"{", RowBox[{"#1", ",", "#2", ",", "#3"}], "}"}],
+                 "&"
+                }
+               ],
+               "@@@",
+               RowBox[
+                {
+                 "RandomReal",
+                 "[",
+                 RowBox[
+                  {
+                   "1",
+                   ",",
+                   " ",
+                   RowBox[{"{", RowBox[{"5", ",", " ", "3"}], "}"}]
+                  }
+                 ],
+                 "]"
+                }
+               ]
+              }
+             ]
+            ],
+            "Code"
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell[TextData[Cell[BoxData["/@"]]], "Subsection"],
+           Cell["\:6709\:4e00\:4e2a", "Text"],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               RowBox[{"f", "[", "x_", "]"}],
+               ":=",
+               RowBox[{"(*", "...", "*)"}]
+              }
+             ]
+            ],
+            "Code"
+           ],
+           Cell[
+            "\:4f60\:9700\:8981\:7ebf\:6027\:4f5c\:7528\:4e8e\:5217\:8868",
+            "Text"
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "{",
+               RowBox[
+                {"a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f"}
+               ],
+               "}"
+              }
+             ]
+            ],
+            "Code"
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "f",
+               "/@",
+               RowBox[
+                {
+                 "{",
+                 RowBox[
+                  {"a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f"}
+                 ],
+                 "}"
+                }
+               ]
+              }
+             ]
+            ],
+            "Code"
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell[TextData[Cell[BoxData["@@"]]], "Subsection"],
+           Cell["\:4f60\:6709\:4e00\:4e2a", "Text"],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               RowBox[
+                {
+                 "f",
+                 "[",
+                 RowBox[{"x_", ",", "y_", ",", "z_", ",", "w_", ",", "a_"}],
+                 "]"
+                }
+               ],
+               ":=",
+               RowBox[{"(*", "...", "*)"}]
+              }
+             ]
+            ],
+            "Code"
+           ],
+           Cell[
+            "\:4f60\:9700\:8981\:628a\:4e00\:4e2a\:5217\:8868\:4f20\:8fdb\:53bb\:6765\:63d0\:4f9b\:53c2\:6570",
+            "Text"
+           ],
+           Cell[
+            TextData[
+             {
+              "\:6ce8\:610f\:5230 ",
+              Cell[BoxData[RowBox[{"{", "}"}]]],
+              " \:672c\:8d28\:662f ",
+              Cell[BoxData[RowBox[{"List", "[", "]"}]]]
+             }
+            ],
+            "Text"
+           ],
+           Cell["\:6240\:4ee5\:6362\:5934", "Text"],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "f",
+               "@@",
+               RowBox[
+                {
+                 "{",
+                 RowBox[{"x", ",", "y", ",", "z", ",", "w", ",", "a"}],
+                 "}"
+                }
+               ]
+              }
+             ]
+            ],
+            "Code"
+           ]
+          },
+          Open
+         ]
+        ]
+       },
+       Open
+      ]
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell[
+         "\:4e0d\:63a8\:8350\:7684\:5217\:8868\:64cd\:4f5c",
+         "Section"
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell["\:5f02\:5f62\:5217\:8868", "Subsection"],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "{",
+               RowBox[
+                {
+                 "{",
+                 RowBox[
+                  {
+                   RowBox[{"{", "1", "}"}],
+                   ",",
+                   RowBox[{"{", RowBox[{"{", "2", "}"}], "}"}],
+                   ",",
+                   RowBox[{"{", RowBox[{"3", ",", "4"}], "}"}]
+                  }
+                 ],
+                 "}"
+                }
+               ],
+               "}"
+              }
+             ]
+            ],
+            "Code"
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell["\:8fc7\:5ea6\:5d4c\:5957", "Subsection"],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "{",
+               RowBox[
+                {
+                 "{",
+                 RowBox[
+                  {
+                   RowBox[{"{", "1", "}"}],
+                   ",",
+                   RowBox[{"{", "2", "}"}],
+                   ",",
+                   RowBox[{"{", "3", "}"}],
+                   ",",
+                   RowBox[{"{", "4", "}"}]
+                  }
+                 ],
+                 "}"
+                }
+               ],
+               "}"
+              }
+             ]
+            ],
+            "Code"
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell[
+            TextData[
+             {
+              "\:628a\:6240\:6709\:7684\:4e1c\:897f\:653e\:5728\:4e00\:4e2a\:5217\:8868\:91cc\:ff0c\:7528 ",
+              Cell[BoxData["Part"]],
+              " \:63d0\:53d6"
+             }
+            ],
+            "Subsection"
+           ],
+           Cell[
+            BoxData[
+             {
+              RowBox[
+               {
+                RowBox[
+                 {
+                  "a",
+                  "=",
+                  RowBox[{"{", RowBox[{"1", ",", "2", ",", "3"}], "}"}]
+                 }
+                ],
+                ";"
+               }
+              ],
+              "\n",
+              RowBox[
+               {
+                RowBox[
+                 {
+                  "b",
+                  "=",
+                  RowBox[
+                   {
+                    "{",
+                    RowBox[
+                     {
+                      RowBox[{"{", RowBox[{"1", ",", "2"}], "}"}],
+                      ",",
+                      RowBox[{"{", RowBox[{"3", ",", "4"}], "}"}]
+                     }
+                    ],
+                    "}"
+                   }
+                  ]
+                 }
+                ],
+                ";"
+               }
+              ],
+              "\n",
+              RowBox[
+               {
+                RowBox[
+                 {
+                  "c",
+                  "=",
+                  RowBox[
+                   {
+                    "{",
+                    RowBox[
+                     {
+                      RowBox[
+                       {
+                        "{",
+                        RowBox[
+                         {RowBox[{"{", RowBox[{"1", ",", "2"}], "}"}], ",", "3"}
+                        ],
+                        "}"
+                       }
+                      ],
+                      ",",
+                      RowBox[
+                       {
+                        "{",
+                        RowBox[
+                         {RowBox[{"{", RowBox[{"2", ",", "3"}], "}"}], ",", "5"}
+                        ],
+                        "}"
+                       }
+                      ]
+                     }
+                    ],
+                    "}"
+                   }
+                  ]
+                 }
+                ],
+                ";"
+               }
+              ],
+              "\n",
+              RowBox[{"{", RowBox[{"a", ",", "b", ",", "c"}], "}"}]
+             }
+            ],
+            "Code"
+           ],
+           Cell[
+            TextData[
+             {
+              "\:7136\:540e\:5c31\:5199\:6210 ",
+              Cell[
+               BoxData[
+                RowBox[
+                 {
+                  RowBox[{"{", RowBox[{"a", ",", "b", ",", "c"}], "}"}],
+                  "[",
+                  RowBox[{"[", "1", "]"}],
+                  "]"
+                 }
+                ]
+               ]
+              ],
+              " \:8fd9\:79cd\:96be\:4ee5\:7406\:89e3 / \:7ef4\:62a4 \:7684\:6837\:5b50"
+             }
+            ],
+            "Text"
+           ]
+          },
+          Open
+         ]
+        ]
+       },
+       Open
+      ]
+     ]
+    },
+    Open
+   ]
+  ]
+ },
+ StyleDefinitions -> "Default.nb"
+]
