@@ -21,7 +21,11 @@ UsingFrontEnd@FileSystemScan[
     MDExport[
       mdFile[nb],
       NotebookOpen[nb],
-      "ImagesFetchURL"->"Relative"
+      "ImagesFetchURL" -> "Relative",
+      "MDElementTemplates" -> <|
+        "LaTeXBlock" -> "![`1`](http://latex.codecogs.com/svg.latex?`1`)",
+        "LaTeXInline" -> "![`1`](http://latex.codecogs.com/svg.latex?`1`)"
+      |>
     ];
     Print[nb, " -> ", mdFile[nb]]
   ],
