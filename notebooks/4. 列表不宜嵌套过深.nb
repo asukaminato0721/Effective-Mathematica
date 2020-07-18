@@ -153,7 +153,7 @@ Notebook[
             TextData[
              {
               "\:90a3\:5047\:5982\:6211\:4eec\:4e0d\:60f3\:8981\:6c61\:67d3 ",
-              Cell[BoxData[FormBox["f", TraditionalForm]], "Input"],
+              Cell[BoxData["f"]],
               " , \:53ef\:4ee5\:8003\:8651\:7eaf\:51fd\:6570"
              }
             ],
