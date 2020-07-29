@@ -29,6 +29,7 @@ Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路�
 0. 前言
 1. [学会使用 `F1`](https://note.youdao.com/ynoteshare1/index.html?id=abd51087f44c0b6a41ff6022d549dc41&type=note)
 1. 介绍一些学习 Mathematica 的站点
+1. [常见的坑](https://mathematica.stackexchange.com/questions/18393/what-are-the-most-common-pitfalls-awaiting-new-users)(感谢[wjx](https://www.zhihu.com/people/wjxway) 提供的链接)]
 2. [少用 `For`, 多用 `Nest(List)`, `Fold(List)`, `Do`,`Table`](https://note.youdao.com/ynoteshare1/index.html?id=7334ad886b97de3565d59beea50b5350&type=note)
 3. 列表不宜嵌套过深
 4. [用数值计算可以加速](https://blog.wolfram.com/2011/12/07/10-tips-for-writing-fast-mathematica-code/)
