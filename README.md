@@ -48,7 +48,7 @@ Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路�
 16. [学会使用 `Compile`](https://note.youdao.com/ynoteshare1/index.html?id=bf2a031f7d0d69064941032c7857dfd1&type=note)
     > 文章里提到的 草红样 的 [MathematicaStackExchange 账号](https://mathematica.stackexchange.com/users/2090/chyanog)
 17. 
-
+18. [如何写出易读的代码](https://www.zhihu.com/question/27880839/answer/144817821)
 
 To be Continued......
 
