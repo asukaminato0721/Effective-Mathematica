@@ -24,7 +24,7 @@ Mathematica 是一门非常灵活的语言，但是初学者经常会走弯路�
 
 ## 目录
 
-> 有些文档来自 Mathematica 吧主 [@xzcyr](https://tieba.baidu.com/home/main?un=xzcyr&fr=pb&ie=utf-8&id=tb.1.97f870a7.VX3kQRtEwUdCtKkQtAWhQg) 的有道云笔记，未经授权不敢搬运, 故给出跳转链接。
+> 有些文档来自 Mathematica 吧主 [@xzcyr](https://tieba.baidu.com/home/main?un=xzcyr&fr=pb&ie=utf-8&id=tb.1.97f870a7.VX3kQRtEwUdCtKkQtAWhQg) 的有道云笔记，假如链接失效了，[备份](./youdao) 里有。
 
 0. 前言
 1. [学会使用 `F1`](https://note.youdao.com/ynoteshare1/index.html?id=abd51087f44c0b6a41ff6022d549dc41&type=note)
